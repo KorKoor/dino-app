@@ -1,15 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // <--- 1. IMPORTA EL PLUGIN
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    tailwindcss(), // <--- 2. ACTÍVALO AQUÍ
+  ],
   build: {
-    chunkSizeWarningLimit: 1000, // Subimos el límite a 1000kb para que no nos moleste
+    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
         manualChunks(id) {
-          // Separamos las librerías pesadas (vendor) del código de nuestra lógica
           if (id.includes('node_modules')) {
             return id.toString().split('node_modules/')[1].split('/')[0].toString();
           }

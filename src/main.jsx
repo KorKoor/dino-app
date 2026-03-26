@@ -1,10 +1,11 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./styles/index.css"; // <--- ESTA RUTA ES VITAL
-import App from "./App.jsx";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // <--- ESTO ES VITAL PARA TAILWIND 4
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(), // <--- ESTO PROCESA TU CSS EN PRODUCCIÓN
+  ],
+})

@@ -6,7 +6,7 @@ import DinoDetail from './components/dino/DinoDetail';
 import Chronology from './components/layout/Chronology';
 import Genetics from './components/layout/Genetics';
 import SystemLog from './components/layout/SystemLog';
-import Footer from './components/layout/Footer';
+import Footer from './components/layout/Footer.jsx';
 import dinosaurs from './data/dinosaurs.json';
 
 function App() {

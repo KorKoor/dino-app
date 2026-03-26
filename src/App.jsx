@@ -61,7 +61,7 @@ function App() {
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {/* 2. HERO (Se oculta en System_Log para mayor inmersión) */}
-      {activeTab !== 'System_Log' && <Hero />}
+      {activeTab !== 'System_Log' && <Hero setActiveTab={setActiveTab} />}
 
       {/* 3. VISTAS DINÁMICAS */}
       <main className="flex-grow p-8 lg:p-16 relative z-10">

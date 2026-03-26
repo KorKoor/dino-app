@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 export default function Navbar({ activeTab, setActiveTab }) {
   const [sysTime, setSysTime] = useState("");
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // <--- NUEVO: Estado para el menú móvil
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // UX LOOP: Reloj en tiempo real
   useEffect(() => {
@@ -17,10 +17,16 @@ export default function Navbar({ activeTab, setActiveTab }) {
     return () => clearInterval(interval);
   }, []);
 
-  // Función para cambiar de pestaña y cerrar el menú móvil al mismo tiempo
+  // Función para cambiar de pestaña, cerrar el menú móvil y subir la pantalla
   const handleNavigation = (item) => {
     if (setActiveTab) setActiveTab(item);
-    setIsMobileMenuOpen(false);
+    setIsMobileMenuOpen(false); // Cierra el menú en móviles
+
+    // FORZAR SCROLL HACIA ARRIBA (Animación suave)
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
 
   // Lista centralizada de pestañas

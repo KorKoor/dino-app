@@ -1,7 +1,8 @@
 import { useEffect, useState, useRef } from 'react';
 
-export default function Hero() {
-  // 1. PERFORMANCE: Usamos ref para el parallax, evitando re-renders en cada movimiento del mouse
+// RECIBIMOS setActiveTab COMO PROP
+export default function Hero({ setActiveTab }) {
+  // 1. PERFORMANCE: Usamos ref para el parallax
   const bgRef = useRef(null);
   
   // 2. LIVE DATA: Estado para la gráfica de barras
@@ -11,10 +12,8 @@ export default function Hero() {
   useEffect(() => {
     const handleMove = (e) => {
       if (!bgRef.current) return;
-      // Calculamos la posición
       const x = (e.clientX / window.innerWidth - 0.5) * 30;
       const y = (e.clientY / window.innerHeight - 0.5) * 30;
-      // Aplicamos directo al DOM
       bgRef.current.style.transform = `translate(${x}px, ${y}px)`;
     };
     window.addEventListener('mousemove', handleMove);
@@ -25,9 +24,22 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setNeuralFeed(prev => prev.map(() => Math.floor(Math.random() * 70) + 15));
-    }, 450); // Se actualiza cada 450ms
+    }, 450);
     return () => clearInterval(interval);
   }, []);
+
+  // NUEVO: Función para iniciar el protocolo
+  const handleStartProtocol = () => {
+    // 1. Aseguramos que la vista principal esté activa
+    if (setActiveTab) {
+      setActiveTab('Data_Samples');
+    }
+    // 2. Deslizamos la pantalla hacia abajo, descontando ~80px del Navbar
+    window.scrollTo({
+      top: window.innerHeight - 80, 
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <header className="relative w-full border-b-2 border-[var(--border)] bg-[var(--bg)] overflow-hidden">
@@ -59,7 +71,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* FIX: Añadido 'group' para que el hover dinámico funcione */}
           <h1 className="group cursor-crosshair text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase italic leading-[0.85] tracking-tighter text-[var(--text-h)] mb-12">
             MESOZOIC <br />
             <span className="text-transparent [-webkit-text-stroke:2px_var(--text-h)] group-hover:text-[var(--accent)] group-hover:[-webkit-text-stroke:2px_var(--accent)] transition-all duration-500">
@@ -68,7 +79,6 @@ export default function Hero() {
           </h1>
 
           <div className="max-w-xl border-l-4 border-[var(--accent)] pl-6 py-1 relative">
-            {/* Detalle UI: Micro-marcador en la línea */}
             <div className="absolute -left-[4px] top-0 w-1 h-4 bg-[var(--text-h)]"></div>
             <p className="text-lg md:text-xl font-medium leading-relaxed text-[var(--text)] italic">
               "La extinción es solo una falla en la transferencia de datos. Estamos aquí para <span className="text-[var(--text-h)] font-black uppercase not-italic">restaurar la secuencia</span>."
@@ -96,7 +106,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Stat 2: Actividad de Red (Animada con Live Data) */}
+          {/* Stat 2: Actividad de Red */}
           <div className="border-2 border-[var(--border)] p-6 relative overflow-hidden bg-black/40">
              <div className="absolute top-0 right-0 p-2 text-[8px] font-mono opacity-50 text-[var(--accent)]">LIVE_FEED</div>
              <span className="block text-[10px] font-black opacity-40 uppercase tracking-widest mb-6">Neural_Activity</span>
@@ -109,13 +119,14 @@ export default function Hero() {
                   ></div>
                 ))}
              </div>
-             {/* Línea base de la gráfica */}
              <div className="w-full h-[1px] bg-[var(--accent)] opacity-50 mt-1"></div>
           </div>
 
-          {/* Call to Action: Acceso al Sistema */}
-          <button className="group relative w-full h-16 bg-[var(--text-h)] text-[var(--bg)] font-black uppercase text-xs sm:text-sm tracking-[0.3em] transition-all hover:bg-[var(--accent)] overflow-hidden shadow-[6px_6px_0px_var(--accent-border)] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none">
-            {/* Efecto de escáner en el botón */}
+          {/* Call to Action: CONECTADO AL ONCLICK */}
+          <button 
+            onClick={handleStartProtocol}
+            className="group relative w-full h-16 bg-[var(--text-h)] text-[var(--bg)] font-black uppercase text-xs sm:text-sm tracking-[0.3em] transition-all hover:bg-[var(--accent)] overflow-hidden shadow-[6px_6px_0px_var(--accent-border)] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none"
+          >
             <div className="absolute inset-0 bg-white/20 -translate-x-full group-hover:animate-[load_1s_ease-in-out_infinite]"></div>
             
             <span className="relative z-10 flex items-center justify-center gap-4 transition-transform group-active:scale-95">
@@ -127,7 +138,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* DETALLE TÉCNICO: Regla de medición lateral */}
+      {/* DETALLE TÉCNICO */}
       <div className="hidden md:flex absolute right-4 top-0 h-full flex-col justify-between py-12 opacity-30 pointer-events-none z-0">
         {[...Array(8)].map((_, i) => (
           <div key={i} className="flex items-center gap-3">

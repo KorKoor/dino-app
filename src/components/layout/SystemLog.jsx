@@ -33,7 +33,6 @@ export default function SystemLog() {
     { type: 'json', delay: 200, text: `  "classified_projects": [` },
     { type: 'json', delay: 100, text: `    "ParDos: Zen Math Puzzle (Mobile)",` },
     { type: 'json', delay: 100, text: `    "ACIF Suite (Hipertensión / Diabetes)",` },
-    { type: 'json', delay: 100, text: `    "Financial SaaS Organizer (iOS/Android)",` },
     { type: 'json', delay: 100, text: `    "PLAY-ZONE (React Engine)"` },
     { type: 'json', delay: 100, text: `  ]` },
     { type: 'json', delay: 200, text: `}` },

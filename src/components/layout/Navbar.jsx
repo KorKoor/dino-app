@@ -17,16 +17,29 @@ export default function Navbar({ activeTab, setActiveTab }) {
     return () => clearInterval(interval);
   }, []);
 
-  // Función para cambiar de pestaña, cerrar el menú móvil y subir la pantalla
+  // Función para cambiar de pestaña, cerrar el menú móvil y hacer scroll Inteligente
   const handleNavigation = (item) => {
     if (setActiveTab) setActiveTab(item);
     setIsMobileMenuOpen(false); // Cierra el menú en móviles
 
-    // FORZAR SCROLL HACIA ARRIBA (Animación suave)
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    // Le damos 50ms a React para que actualice el DOM con la nueva pestaña antes de movernos
+    setTimeout(() => {
+      if (item === 'System_Log') {
+        // Excepción: Como System_Log oculta el Hero, aquí sí debemos subir hasta el tope (cero)
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        // Para las demás vistas: Buscamos el contenedor de contenido y bajamos directo hacia él
+        const mainSection = document.getElementById('main-content');
+        if (mainSection) {
+          // Calculamos la distancia exacta, restando 85px para que la Navbar no tape el título
+          const targetY = mainSection.getBoundingClientRect().top + window.scrollY - 85;
+          window.scrollTo({ top: targetY, behavior: 'smooth' });
+        } else {
+          // Plan B de seguridad: Bajar el equivalente a una pantalla completa
+          window.scrollTo({ top: window.innerHeight - 85, behavior: 'smooth' });
+        }
+      }
+    }, 50);
   };
 
   // Lista centralizada de pestañas

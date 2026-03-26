@@ -64,7 +64,7 @@ function App() {
       {activeTab !== 'System_Log' && <Hero setActiveTab={setActiveTab} />}
 
       {/* 3. VISTAS DINÁMICAS */}
-      <main className="flex-grow p-8 lg:p-16 relative z-10">
+      <main id="main-content" className="flex-grow p-8 lg:p-16 relative z-10">
         
         {/* VISTA 1: DATA SAMPLES (Buscador y Grid) */}
         {activeTab === 'Data_Samples' && (

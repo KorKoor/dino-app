@@ -8,6 +8,7 @@ import Genetics from './components/layout/Genetics';
 import SystemLog from './components/layout/SystemLog';
 import Footer from './components/layout/Footer.jsx';
 import dinosaurs from './data/dinosaurs.json';
+
 //HOLA SOY CHARLIE
 function App() {
   const [searchTerm, setSearchTerm] = useState("");

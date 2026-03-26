@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+/* 1. SISTEMA DE VARIABLES (El Motor)
+  Aquí mapeamos tu paleta Terminal/Radar a las variables 
+  que nuestros componentes de React están llamando. 
+*/
+@theme {
+  --font-heading: 'Archivo Black', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+:root {
+  /* Paleta "DINO-OS / Terminal" */
+  --bg: #030303; /* Vacío absoluto */
+  --code-bg: #0a0a0c; /* Superficie de paneles */
+  
+  --text: #6b7280; /* Datos secundarios apagados */
+  --text-h: #f3f4f6; /* Datos principales brillantes */
+  
+  --accent: #00ff41; /* Verde Matrix/Radar (Terminal) */
+  --accent-bg: rgba(0, 255, 65, 0.08);
+  --accent-border: rgba(0, 255, 65, 0.3);
+  
+  --border: rgba(255, 255, 255, 0.08); /* Bordes sutiles de blueprint */
+}
+
+/* 2. ATMÓSFERA Y ENTORNO (Globales) */
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    cursor: crosshair; /* Visor táctico */
+    overflow-x: hidden;
+    /* Ruido de fondo sutil */
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+  }
+
+  /* Grid tipo "Blueprint Técnico" con viñeta para profundidad */
+  #root {
+    min-height: 100svh;
+    background-image: 
+      linear-gradient(var(--border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 60px 60px;
+    background-position: center top;
+    box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.95); /* Viñeta oscura en los bordes */
+  }
+
+  /* Efecto Monitor CRT (Fijo en la pantalla) */
+  body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: 
+      linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.3) 50%), /* Scanlines */
+      linear-gradient(90deg, rgba(255, 0, 0, 0.04), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.04)); /* Aberración cromática */
+    background-size: 100% 4px, 3px 100%;
+    z-index: 9999;
+    pointer-events: none;
+  }
+
+  /* Escáner Activo: Una línea verde que baja lentamente */
+  body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 15vh;
+    background: linear-gradient(to bottom, transparent, rgba(0, 255, 65, 0.08), transparent);
+    z-index: 9998;
+    pointer-events: none;
+    animation: radar-scan 8s linear infinite;
+  }
+}
+
+/* 3. ANIMACIONES OPTIMIZADAS (Hardware Accelerated) */
+@keyframes radar-scan {
+  0% { transform: translateY(-20vh); }
+  100% { transform: translateY(120vh); }
+}
+
+@keyframes low-pulse {
+  0%, 100% { 
+    opacity: 1; 
+    filter: drop-shadow(0 0 8px var(--accent)); 
+  }
+  50% { 
+    opacity: 0.5; 
+    filter: drop-shadow(0 0 0px transparent); 
+  }
+}
+
+@keyframes load {
+  /* Usamos transform(translateX) en lugar de 'left' para evitar lag */
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes reveal {
+  0% { 
+    opacity: 0; 
+    transform: translateY(40px) scale(0.95); 
+    filter: blur(8px) grayscale(100%);
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0) scale(1);
+    filter: blur(0px) grayscale(0%);
+  }
+}
+
+/* 4. CLASES DE UTILIDAD PARA REACT */
+.animate-flicker {
+  animation: low-pulse 3s infinite ease-in-out;
+}
+
+.animate-load { 
+  /* Cubic-bezier para que la carga acelere y frene de golpe */
+  animation: load 1.2s infinite cubic-bezier(0.7, 0, 0.3, 1); 
+}
+
+.animate-reveal { 
+  opacity: 0; /* Previene un destello antes de animar */
+  animation: reveal 0.8s cubic-bezier(0.19, 1, 0.22, 1) forwards; 
+}
+
+/* 5. BONUS DE UX: SCROLLBAR DE TERMINAL */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-left: 1px solid var(--border);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-border);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}

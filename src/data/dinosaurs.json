@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "trex-01",
+    "name": "Tyrannosaurus Rex",
+    "scientificName": "Tyrannosaurus rex",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "68-66 millones de años",
+    "diet": "Carnívoro",
+    "region": "Norteamérica",
+    "habitat": "Bosques subtropicales y llanuras costeras",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Tyrannosauridae",
+      "genus": "Tyrannosaurus",
+      "species": "T. rex"
+    },
+    "description": "El depredador más icónico de la historia. Poseía una de las mordidas más poderosas de todos los animales terrestres conocidos, capaz de triturar huesos con sus dientes serrados.",
+    "behavior": "Cazador activo y carroñero oportunista. Estudios de huella fósil sugieren que podía perseguir presas a velocidades de hasta 20 km/h.",
+    "funFacts": [
+      "Su nombre significa 'Rey de los lagartos tiranos'",
+      "Tenía dientes de hasta 30 cm de longitud, incluyendo la raíz",
+      "Su mordida ejercía una fuerza de hasta 57,000 Newtons"
+    ],
+    "stats": {
+      "height": "4m",
+      "length": "12.3m",
+      "weight": "8000kg",
+      "speed": "17-20 km/h",
+      "biteForce": "57,000 N",
+      "brainSize": "Moderado",
+      "lifespan": "~28 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1902,
+      "discoveredBy": "Barnum Brown",
+      "discoveryLocation": "Hell Creek Formation, Montana, EE.UU.",
+      "notableSpecimens": ["Sue (Field Museum, Chicago)", "Stan (Black Hills Institute)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannosaurus_Rex_Holotype.jpg",
+    "featured": true,
+    "dangerLevel": 10,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "tric-02",
+    "name": "Triceratops",
+    "scientificName": "Triceratops horridus",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "68-66 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica",
+    "habitat": "Bosques y llanuras del interior del continente",
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Ceratopsia",
+      "family": "Ceratopsidae",
+      "genus": "Triceratops",
+      "species": "T. horridus"
+    },
+    "description": "Reconocible por sus tres cuernos y su gran gola ósea. Era el principal rival del T-Rex en su ecosistema. Su nombre significa 'cara con tres cuernos'.",
+    "behavior": "Animal gregario que vivía en manadas para mayor protección. Al ser amenazado, adoptaba una posición defensiva en grupo.",
+    "funFacts": [
+      "Existían dos especies: T. horridus y T. prorsus",
+      "Su gola podía cambiar de color para comunicarse",
+      "Tenía una de las cabezas más grandes de cualquier animal terrestre"
+    ],
+    "stats": {
+      "height": "3m",
+      "length": "9m",
+      "weight": "6000kg",
+      "speed": "24-29 km/h",
+      "hornLength": "1m",
+      "brainSize": "Pequeño",
+      "lifespan": "~30 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1887,
+      "discoveredBy": "Othniel Charles Marsh",
+      "discoveryLocation": "Denver, Colorado, EE.UU.",
+      "notableSpecimens": ["Specimen USNM 4842 (Smithsonian)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Triceratops_horridus_Natural_History_Museum.jpg",
+    "featured": true,
+    "dangerLevel": 7,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Cuadrúpedo"
+  },
+  {
+    "id": "brach-03",
+    "name": "Brachiosaurus",
+    "scientificName": "Brachiosaurus altithorax",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "154-153 millones de años",
+    "diet": "Herbívoro",
+    "region": "África y Norteamérica",
+    "habitat": "Llanuras semisecas con vegetación abundante",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Sauropodomorpha",
+      "family": "Brachiosauridae",
+      "genus": "Brachiosaurus",
+      "species": "B. altithorax"
+    },
+    "description": "Un gigante de cuello extremadamente largo que le permitía alcanzar la vegetación más alta. A diferencia de otros saurópodos, sus patas delanteras eran más largas que las traseras.",
+    "behavior": "Animal en manada que realizaba migraciones estacionales en busca de alimento. Se cree que no podía trotar.",
+    "funFacts": [
+      "Necesitaba comer entre 200 y 400 kg de vegetación al día",
+      "Su corazón pesaba aproximadamente 200 kg",
+      "Podía alcanzar alturas de hasta 16 metros con el cuello extendido"
+    ],
+    "stats": {
+      "height": "13m",
+      "length": "26m",
+      "weight": "56000kg",
+      "speed": "~10 km/h",
+      "neckLength": "~9m",
+      "brainSize": "Muy pequeño",
+      "lifespan": "~100 años (estimado)"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1900,
+      "discoveredBy": "Elmer Riggs",
+      "discoveryLocation": "Mesa County, Colorado, EE.UU.",
+      "notableSpecimens": ["HMN SII (Museo de Historia Natural de Berlín)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brachiosaurus_DB.jpg",
+    "featured": true,
+    "dangerLevel": 2,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Cuadrúpedo"
+  },
+  {
+    "id": "veloci-04",
+    "name": "Velociraptor",
+    "scientificName": "Velociraptor mongoliensis",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "75-71 millones de años",
+    "diet": "Carnívoro",
+    "region": "Asia Central",
+    "habitat": "Desiertos áridos y semisecas",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Dromaeosauridae",
+      "genus": "Velociraptor",
+      "species": "V. mongoliensis"
+    },
+    "description": "Contrario a su representación en el cine, el Velociraptor real era del tamaño de un pavo grande, no un humano. Estaba completamente cubierto de plumas y era extremadamente ágil.",
+    "behavior": "Cazador solitario o en parejas, no en manadas como sugiere Hollywood. Era muy inteligente para los estándares de los dinosaurios.",
+    "funFacts": [
+      "Medía solo 50 cm de altura y 2 metros de longitud",
+      "La 'garra terrible' retráctil alcanzaba 6.5 cm de longitud",
+      "Vivía en el Desierto de Gobi hace 75 millones de años"
+    ],
+    "stats": {
+      "height": "0.5m",
+      "length": "2m",
+      "weight": "15kg",
+      "speed": "40 km/h",
+      "clawSize": "6.5 cm",
+      "brainSize": "Relativamente grande",
+      "lifespan": "~15-20 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1923,
+      "discoveredBy": "Peter Kaisen",
+      "discoveryLocation": "Formación Djadokhta, Mongolia",
+      "notableSpecimens": ["El 'Duelo de Dinosaurios' (IGM 100/25)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Velociraptor_mongoliensis_AMNH-6515.png",
+    "featured": true,
+    "dangerLevel": 6,
+    "socialBehavior": "Solitario o en parejas",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "stego-05",
+    "name": "Stegosaurus",
+    "scientificName": "Stegosaurus stenops",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "155-150 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica y Europa",
+    "habitat": "Llanuras herbáceas y bosques abiertos",
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Thyreophora",
+      "family": "Stegosauridae",
+      "genus": "Stegosaurus",
+      "species": "S. stenops"
+    },
+    "description": "Famoso por las grandes placas óseas que recorrían su espina dorsal y los cuatro pinchos mortales en su cola. Las placas probablemente servían para regulación de temperatura.",
+    "behavior": "Herbívoro lento y apacible que usaba su cola con pinchos como defensa contra depredadores. Comía plantas bajas y helechos.",
+    "funFacts": [
+      "Su cerebro era del tamaño de una nuez, aproximadamente 80 gramos",
+      "El término 'thagomizer' fue inventado por el humorista Gary Larson",
+      "Vivió 80 millones de años antes que el T-Rex"
+    ],
+    "stats": {
+      "height": "2.75m",
+      "length": "9m",
+      "weight": "5000kg",
+      "speed": "~7 km/h",
+      "brainSize": "80 gramos",
+      "lifespan": "~75 años (estimado)"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1877,
+      "discoveredBy": "Othniel Charles Marsh",
+      "discoveryLocation": "Morrison, Colorado, EE.UU.",
+      "notableSpecimens": ["'Sophie' (Natural History Museum, Londres)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stegosaurus_at_CMNH.jpg",
+    "featured": false,
+    "dangerLevel": 4,
+    "socialBehavior": "Solitario o pequeños grupos",
+    "reproduction": "Ovíparo",
+    "locomotion": "Cuadrúpedo"
+  },
+  {
+    "id": "ankyl-06",
+    "name": "Ankylosaurus",
+    "scientificName": "Ankylosaurus magniventris",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "68-66 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica",
+    "habitat": "Bosques densos y zonas de llanura",
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Ankylosauria",
+      "family": "Ankylosauridae",
+      "genus": "Ankylosaurus",
+      "species": "A. magniventris"
+    },
+    "description": "El dinosaurio más acorazado de todos los tiempos. Su cuerpo estaba cubierto de placas óseas llamadas osteodermos, y su cola terminaba en una maza ósea masiva capaz de romper huesos.",
+    "behavior": "Animal solitario y tranquilo cuando no era amenazado. Al sentirse en peligro, agachaba el cuerpo y usaba su maza caudal con golpes laterales devastadores.",
+    "funFacts": [
+      "Su maza caudal podía girar a gran velocidad y romper huesos de depredadores",
+      "Las placas de su armadura estaban embebidas directamente en la piel",
+      "A pesar de su armadura, su vientre era completamente vulnerable"
+    ],
+    "stats": {
+      "height": "1.7m",
+      "length": "7m",
+      "weight": "7000kg",
+      "speed": "~10 km/h",
+      "armorThickness": "~5 cm de osteodermos",
+      "lifespan": "~70 años (estimado)"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1906,
+      "discoveredBy": "Barnum Brown",
+      "discoveryLocation": "Montana, EE.UU.",
+      "notableSpecimens": ["AMNH 5895"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ankylosaurus_magniventris_reconstruction.jpg",
+    "featured": false,
+    "dangerLevel": 5,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Cuadrúpedo"
+  },
+  {
+    "id": "ptero-07",
+    "name": "Pterodáctilo",
+    "scientificName": "Pterodactylus antiquus",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "150-148 millones de años",
+    "diet": "Piscívoro",
+    "region": "Europa",
+    "habitat": "Costas, estuarios y lagunas costeras",
+    "classification": {
+      "order": "Pterosauria",
+      "suborder": "Pterodactyloidea",
+      "family": "Pterodactylidae",
+      "genus": "Pterodactylus",
+      "species": "P. antiquus"
+    },
+    "description": "Técnicamente no es un dinosaurio sino un reptil volador. Era relativamente pequeño comparado con otros pterosaurios. Sus alas eran membranas de piel extendidas desde un dedo elongado.",
+    "behavior": "Volador activo que pescaba en superficie sumergiéndose brevemente. Podía caminar en cuatro patas en tierra.",
+    "funFacts": [
+      "NO es un dinosaurio, sino un reptil volador",
+      "El nombre 'pterodáctilo' significa 'dedo alado'",
+      "Era del tamaño de un cuervo o un halcón"
+    ],
+    "stats": {
+      "wingspan": "1.5m",
+      "length": "~1.0m",
+      "weight": "~1kg",
+      "speed": "~30 km/h",
+      "lifespan": "~10-15 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1784,
+      "discoveredBy": "Cosimo Alessandro Collini",
+      "discoveryLocation": "Baviera, Alemania",
+      "notableSpecimens": ["Holotipo BSP AS I 739"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pterodactylus_antiquus_reconstruction.jpg",
+    "featured": false,
+    "dangerLevel": 3,
+    "socialBehavior": "Colonial",
+    "reproduction": "Ovíparo",
+    "locomotion": "Volador"
+  },
+  {
+    "id": "spino-08",
+    "name": "Spinosaurus",
+    "scientificName": "Spinosaurus aegyptiacus",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "99-93 millones de años",
+    "diet": "Piscívoro / Carnívoro",
+    "region": "Norte de África",
+    "habitat": "Deltas fluviales, marismas y costas",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Spinosauridae",
+      "genus": "Spinosaurus",
+      "species": "S. aegyptiacus"
+    },
+    "description": "El carnívoro terrestre más grande que jamás haya existido, superando al T-Rex en longitud. Sus espinas neurales formaban una vela de hasta 1.7 metros de altura.",
+    "behavior": "Semi-acuático que pasaba gran parte del tiempo en el agua cazando peces gigantes. Sus patas traseras eran cortas y sus huesos densos, adaptaciones para el nado.",
+    "funFacts": [
+      "Es el carnívoro más grande conocido: hasta 15-18 metros de longitud",
+      "Sus pies tenían membranas entre los dedos para nadar",
+      "Los primeros fósiles fueron destruidos en WWII"
+    ],
+    "stats": {
+      "height": "~5m",
+      "length": "16m",
+      "weight": "15000kg",
+      "speed": "~15 km/h",
+      "lifespan": "~40-50 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1912,
+      "discoveredBy": "Richard Markgraf",
+      "discoveryLocation": "Egipto",
+      "notableSpecimens": ["FSAC-KK 11888"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinosaurus_aegyptiacus.png",
+    "featured": true,
+    "dangerLevel": 9,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Semi-acuático"
+  },
+  {
+    "id": "diplo-09",
+    "name": "Diplodocus",
+    "scientificName": "Diplodocus carnegii",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "154-152 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica",
+    "habitat": "Llanuras semisecas con ríos y vegetación",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Sauropodomorpha",
+      "family": "Diplodocidae",
+      "genus": "Diplodocus",
+      "species": "D. carnegii"
+    },
+    "description": "Uno de los dinosaurios más largos conocidos. Su cola, que representaba más de la mitad de su longitud total, podía usarse como látigo supersónico.",
+    "behavior": "Animal gregario que vivía en manadas mixtas por edades. Posiblemente se criaba en pié para alcanzar árboles altos.",
+    "funFacts": [
+      "Su cola podía producir un estallido supersónico al agitarla rápidamente",
+      "Sus dientes solo estaban en la parte frontal de la boca, como un rastrillo",
+      "Podía alcanzar 27 metros de longitud total"
+    ],
+    "stats": {
+      "height": "4.8m",
+      "length": "27m",
+      "weight": "15000kg",
+      "speed": "~10 km/h",
+      "lifespan": "~80 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1877,
+      "discoveredBy": "Samuel Williston",
+      "discoveryLocation": "Colorado, EE.UU.",
+      "notableSpecimens": ["Dippy (Natural History Museum, Londres)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diplodocus_carnegii.jpg",
+    "featured": false,
+    "dangerLevel": 2,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Cuadrúpedo"
+  },
+  {
+    "id": "pachy-10",
+    "name": "Pachycephalosaurus",
+    "scientificName": "Pachycephalosaurus wyomingensis",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "70-66 millones de años",
+    "diet": "Omnívoro",
+    "region": "Norteamérica",
+    "habitat": "Bosques interiores y zonas de tierras altas",
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Pachycephalosauria",
+      "family": "Pachycephalosauridae",
+      "genus": "Pachycephalosaurus",
+      "species": "P. wyomingensis"
+    },
+    "description": "Conocido por su peculiar cráneo con una cúpula ósea de hasta 25 cm de grosor, rodeada de pequeños pinchos y protuberancias.",
+    "behavior": "Animal posiblemente gregario con estructura social jerárquica donde los machos competían mediante embestidas cabeza con cabeza.",
+    "funFacts": [
+      "Su nombre significa 'lagarto de cabeza gruesa'",
+      "La cúpula craneal medía hasta 25 cm de grosor",
+      "Era bípedo y relativamente ágil para un ornitisquio"
+    ],
+    "stats": {
+      "height": "1.5m",
+      "length": "4.5m",
+      "weight": "450kg",
+      "speed": "~25 km/h",
+      "lifespan": "~20-25 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1943,
+      "discoveredBy": "Donald Baird y John Horner",
+      "discoveryLocation": "Wyoming, EE.UU.",
+      "notableSpecimens": ["AMNH 1696"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pachycephalosaurus_wyomingensis.png",
+    "featured": false,
+    "dangerLevel": 3,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "iguano-11",
+    "name": "Iguanodon",
+    "scientificName": "Iguanodon bernissartensis",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "126-122 millones de años",
+    "diet": "Herbívoro",
+    "region": "Europa, Norteamérica, Asia",
+    "habitat": "Llanuras fluviales y bosques cálidos",
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Ornithopoda",
+      "family": "Iguanodontidae",
+      "genus": "Iguanodon",
+      "species": "I. bernissartensis"
+    },
+    "description": "Uno de los primeros dinosaurios en ser nombrados científicamente. Su característica más notable era el gran pulgar en punta que podía usar como arma defensiva.",
+    "behavior": "Animal gregario que vivía en manadas grandes. Podía desplazarse tanto a cuatro como a dos patas.",
+    "funFacts": [
+      "Fue el segundo dinosaurio en recibir nombre científico formal (1825)",
+      "Originalmente se pensó que el pulgar en punta era un cuerno nasal",
+      "Sus dientes revelaron que masticaba lateralmente, como las iguanas"
+    ],
+    "stats": {
+      "height": "2.7m",
+      "length": "10m",
+      "weight": "3500kg",
+      "speed": "~24 km/h",
+      "lifespan": "~25 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1822,
+      "discoveredBy": "Mary Ann Mantell",
+      "discoveryLocation": "Inglaterra",
+      "notableSpecimens": ["IRSNB 1551-1565"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Iguanodon_bernissartensis_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 3,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo / Cuadrúpedo"
+  },
+  {
+    "id": "allosaur-12",
+    "name": "Allosaurus",
+    "scientificName": "Allosaurus fragilis",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "155-145 millones de años",
+    "diet": "Carnívoro",
+    "region": "Norteamérica",
+    "habitat": "Llanuras semisecas y bosques ribereños",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Allosauridae",
+      "genus": "Allosaurus",
+      "species": "A. fragilis"
+    },
+    "description": "El superdepredador del Jurásico, equivalente al T-Rex de su época. Tenía un cráneo ligero pero fuerte con crestas óseas sobre los ojos, y brazos con tres garras poderosas.",
+    "behavior": "Depredador activo que posiblemente cazaba en manadas para atacar a los gigantes saurópodos. Su mandíbula podía abrirse a un ángulo inusualmente amplio.",
+    "funFacts": [
+      "Era el dinosaurio carnívoro más abundante de la Formación Morrison",
+      "Su mandíbula podía abrirse casi 90 grados",
+      "Probablemente cazaba en grupos"
+    ],
+    "stats": {
+      "height": "3.4m",
+      "length": "10m",
+      "weight": "2000kg",
+      "speed": "~35 km/h",
+      "lifespan": "~25-28 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1877,
+      "discoveredBy": "Othniel Charles Marsh",
+      "discoveryLocation": "Wyoming, EE.UU.",
+      "notableSpecimens": ["'Big Al' (MOR 693)"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Allosaurus_fragilis_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 8,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "parasaur-13",
+    "name": "Parasaurolophus",
+    "scientificName": "Parasaurolophus walkeri",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "76-73 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica",
+    "habitat": "Bosques costeros y llanuras inundables",
+    "classification": {
+      "order": "Ornithischia",
+      "suborder": "Ornithopoda",
+      "family": "Hadrosauridae",
+      "genus": "Parasaurolophus",
+      "species": "P. walkeri"
+    },
+    "description": "Famoso por su gran cresta tubular hueca que se extendía hacia atrás desde la cabeza. Esta cresta era un instrumento musical natural que amplificaba y producía sonidos de baja frecuencia.",
+    "behavior": "Vivía en grandes manadas con comunicación vocal compleja mediante su cresta resonante. Era una presa fundamental para los grandes depredadores del Cretácico.",
+    "funFacts": [
+      "Su cresta podía producir sonidos similares a un trombón",
+      "La cresta medía hasta 1.8 metros de longitud",
+      "Era conocido como el 'dinosaurio de pico de pato'"
+    ],
+    "stats": {
+      "height": "2.8m",
+      "length": "9.5m",
+      "weight": "2500kg",
+      "speed": "~40 km/h",
+      "lifespan": "~30 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1922,
+      "discoveredBy": "William Parks",
+      "discoveryLocation": "Alberta, Canadá",
+      "notableSpecimens": ["ROM 768"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parasaurolophus_walkeri_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 2,
+    "socialBehavior": "Muy gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo / Cuadrúpedo"
+  },
+  {
+    "id": "carno-14",
+    "name": "Carnotaurus",
+    "scientificName": "Carnotaurus sastrei",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "72-69 millones de años",
+    "diet": "Carnívoro",
+    "region": "Sudamérica",
+    "habitat": "Llanuras semiáridas y bosques abiertos",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Abelisauridae",
+      "genus": "Carnotaurus",
+      "species": "C. sastrei"
+    },
+    "description": "El único teropodo conocido con dos cuernos sobre los ojos, semejantes a los de un toro, de donde proviene su nombre. Tenía los brazos más reducidos de cualquier carnosaurio grande, casi vestigiales.",
+    "behavior": "El depredador más rápido de su tamaño, capaz de alcanzar velocidades excepcionales. Su cuello musculoso y sus cuernos podían usarse para golpear presas.",
+    "funFacts": [
+      "Es el único teropodo conocido con cuernos óseos sobre los ojos",
+      "Sus brazos eran más pequeños y vestigiales que los del T-Rex",
+      "Podría alcanzar velocidades de hasta 56 km/h"
+    ],
+    "stats": {
+      "height": "3m",
+      "length": "8m",
+      "weight": "1350kg",
+      "speed": "~56 km/h",
+      "lifespan": "~20-25 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1984,
+      "discoveredBy": "José Fernando Bonaparte",
+      "discoveryLocation": "Patagonia, Argentina",
+      "notableSpecimens": ["MACN-CH 894"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carnotaurus_sastrei_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 8,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "theri-15",
+    "name": "Therizinosaurus",
+    "scientificName": "Therizinosaurus cheloniformis",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "70-68 millones de años",
+    "diet": "Herbívoro",
+    "region": "Asia Central",
+    "habitat": "Bosques subtropicales y áreas de frondosa vegetación",
+    "classification": {
+      "order": "Saurischia",
+      "suborder": "Theropoda",
+      "family": "Therizinosauridae",
+      "genus": "Therizinosaurus",
+      "species": "T. cheloniformis"
+    },
+    "description": "Poseía las garras más largas de cualquier animal conocido, llegando al metro de longitud. A pesar de ser un teropodo (como el T-Rex), era completamente herbívoro.",
+    "behavior": "Herbívoro lento que usaba sus enormes garras para jalalar ramas de árboles y arbustos hacia su boca. A pesar de su apariencia amenazante, era pacífico.",
+    "funFacts": [
+      "Sus garras medían hasta 1 metro de longitud: las más largas conocidas",
+      "Era un teropodo herbívoro, algo muy inusual en su grupo",
+      "Estaba cubierto de plumas según especímenes relacionados"
+    ],
+    "stats": {
+      "height": "5m",
+      "length": "10m",
+      "weight": "4000kg",
+      "speed": "~15 km/h",
+      "lifespan": "~40 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1948,
+      "discoveredBy": "Evgeny Maleev",
+      "discoveryLocation": "Mongolia",
+      "notableSpecimens": ["PIN 551-483"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Therizinosaurus_cheloniformis_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 4,
+    "socialBehavior": "Solitario o pequeños grupos",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "mosasaur-16",
+    "name": "Mosasaurus",
+    "scientificName": "Mosasaurus hoffmannii",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "70-66 millones de años",
+    "diet": "Carnívoro",
+    "region": "Mares globales del Cretácico",
+    "habitat": "Océanos abiertos",
+    "classification": {
+      "order": "Squamata",
+      "suborder": "Mosasauria",
+      "family": "Mosasauridae",
+      "genus": "Mosasaurus",
+      "species": "M. hoffmannii"
+    },
+    "description": "No era un dinosaurio sino un enorme reptil marino relacionado con los lagartos varánidos actuales. Era el depredador apical de los océanos del Cretácico tardío.",
+    "behavior": "Depredador oceánico de emboscada que probablemente cazaba en la oscuridad de las profundidades y emergía hacia la superficie. Era vivíparo.",
+    "funFacts": [
+      "No era un dinosaurio sino un pariente de los lagartos monitor",
+      "Era vivíparo: pariera crías vivas en el océano",
+      "Tenía una segunda mandíbula interior con dientes adicionales"
+    ],
+    "stats": {
+      "length": "17m",
+      "weight": "14000kg",
+      "speed": "~50 km/h",
+      "lifespan": "~40 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1764,
+      "discoveredBy": "Hoffmann",
+      "discoveryLocation": "Países Bajos",
+      "notableSpecimens": ["Espécimen de Maastricht"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosasaurus_hoffmannii_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 9,
+    "socialBehavior": "Solitario",
+    "reproduction": "Vivíparo",
+    "locomotion": "Nado / Aquático"
+  },
+  {
+    "id": "archeo-17",
+    "name": "Archaeopteryx",
+    "scientificName": "Archaeopteryx lithographica",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "150-148 millones de años",
+    "diet": "Insectívoro / Carnívoro pequeño",
+    "region": "Europa (Alemania)",
+    "habitat": "Archipiélagos tropicales",
+    "classification": {
+      "order": "Archaeopterygiformes",
+      "family": "Archaeopterygidae",
+      "genus": "Archaeopteryx",
+      "species": "A. lithographica"
+    },
+    "description": "El fósil más famoso del mundo y el eslabón perdido entre dinosaurios y aves. Tenía plumas completamente desarrolladas pero también conservaba características de dinosaurio.",
+    "behavior": "Posiblemente podía volar aunque de manera menos eficiente que las aves modernas. Usaba las garras de las alas para trepar árboles.",
+    "funFacts": [
+      "Su nombre significa 'ala antigua' en griego",
+      "Solo se conocen 12 especímenes",
+      "Charles Darwin lo consideró la prueba viviente de su teoría"
+    ],
+    "stats": {
+      "wingspan": "0.6m",
+      "length": "0.5m",
+      "weight": "1kg",
+      "speed": "Vuelo torpe",
+      "lifespan": "~10 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1861,
+      "discoveredBy": "Hermann von Meyer",
+      "discoveryLocation": "Baviera, Alemania",
+      "notableSpecimens": ["Espécimen de Berlín"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Archaeopteryx_lithographica_life_restoration.png",
+    "featured": true,
+    "dangerLevel": 1,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Volador / Árborícola"
+  },
+  {
+    "id": "maia-18",
+    "name": "Maiasaura",
+    "scientificName": "Maiasaura peeblesorum",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "77-75 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica",
+    "habitat": "Llanuras herbáceas",
+    "classification": {
+      "order": "Ornithischia",
+      "family": "Hadrosauridae",
+      "genus": "Maiasaura",
+      "species": "M. peeblesorum"
+    },
+    "description": "Su nombre significa 'lagarto buena madre', ya que fue el primer dinosaurio del que se encontraron evidencias de cuidado parental avanzado.",
+    "behavior": "Altamente social con migraciones anuales en manadas de hasta 10,000 individuos. Construían nidos comunales.",
+    "funFacts": [
+      "El primer dinosaurio con evidencia clara de cuidado parental",
+      "Los restos de Maiasaura viajaron al espacio en el transbordador Challenger"
+    ],
+    "stats": {
+      "height": "2.4m",
+      "length": "9m",
+      "weight": "3500kg",
+      "speed": "~30 km/h",
+      "lifespan": "~30 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1978,
+      "discoveredBy": "John R. Horner",
+      "discoveryLocation": "Montana, EE.UU.",
+      "notableSpecimens": ["Yacimiento Egg Mountain"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maiasaura_peeblesorum_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 1,
+    "socialBehavior": "Muy gregario",
+    "reproduction": "Ovíparo con cuidado parental",
+    "locomotion": "Bípedo / Cuadrúpedo"
+  },
+  {
+    "id": "giganoto-19",
+    "name": "Giganotosaurus",
+    "scientificName": "Giganotosaurus carolinii",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "99-97 millones de años",
+    "diet": "Carnívoro",
+    "region": "Sudamérica",
+    "habitat": "Llanuras boscosas",
+    "classification": {
+      "order": "Saurischia",
+      "family": "Carcharodontosauridae",
+      "genus": "Giganotosaurus",
+      "species": "G. carolinii"
+    },
+    "description": "Uno de los carnívoros terrestres más grandes de todos los tiempos, superando en longitud al T-Rex aunque con una musculatura menor.",
+    "behavior": "Cazaba en grupos para derribar a los enormes saurópodos titanosaurios. Su cerebro era relativamente pequeño.",
+    "funFacts": [
+      "Superaba al T-Rex en longitud pero tenía una mordida más débil",
+      "Su cerebro tenía forma de banana",
+      "Convivió con Argentinosaurus, el dinosaurio más pesado"
+    ],
+    "stats": {
+      "height": "4m",
+      "length": "13m",
+      "weight": "13000kg",
+      "speed": "~14 km/h",
+      "lifespan": "~40 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1993,
+      "discoveredBy": "Rubén Carolini",
+      "discoveryLocation": "Argentina",
+      "notableSpecimens": ["MUCPv-Ch1"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giganotosaurus_carolinii_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 9,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "argentin-20",
+    "name": "Argentinosaurus",
+    "scientificName": "Argentinosaurus huinculensis",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "96-94 millones de años",
+    "diet": "Herbívoro",
+    "region": "Sudamérica",
+    "habitat": "Llanuras forestales",
+    "classification": {
+      "order": "Saurischia",
+      "family": "Andesauridae",
+      "genus": "Argentinosaurus",
+      "species": "A. huinculensis"
+    },
+    "description": "El animal más pesado que jamás ha caminado sobre la Tierra. Sus vértebras dorsales medían hasta 1.6 metros de altura.",
+    "behavior": "Se movía lentamente conservando energía. Su tamaño extremo era su principal defensa contra depredadores.",
+    "funFacts": [
+      "Es el animal más pesado que jamás ha existido: ~70-80 toneladas",
+      "Una sola vértebra pesa más que un ser humano adulto",
+      "Un bebé recién nacido ya medía aproximadamente 1.5 metros"
+    ],
+    "stats": {
+      "height": "8m",
+      "length": "35m",
+      "weight": "75000kg",
+      "speed": "~8 km/h",
+      "lifespan": "~100 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1987,
+      "discoveredBy": "Guillermo Heredia",
+      "discoveryLocation": "Argentina",
+      "notableSpecimens": ["MCF-PVPH-1"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Argentinosaurus_huinculensis_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 1,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Cuadrúpedo"
+  },
+  {
+    "id": "micro-21",
+    "name": "Microraptor",
+    "scientificName": "Microraptor gui",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "125-120 millones de años",
+    "diet": "Carnívoro pequeño",
+    "region": "Asia",
+    "habitat": "Bosques densos",
+    "classification": {
+      "order": "Saurischia",
+      "family": "Dromaeosauridae",
+      "genus": "Microraptor",
+      "species": "M. gui"
+    },
+    "description": "El dinosaurio más pequeño con cuatro alas conocido: tenía plumas en las patas traseras además de las delanteras. Era negro iridiscente.",
+    "behavior": "Árborícola que se lanzaba al vacío planeando y quizás volando activamente entre árboles.",
+    "funFacts": [
+      "Tenía cuatro alas: plumas en brazos Y en patas traseras",
+      "Sus plumas eran negras iridiscentes como el cuervo moderno",
+      "Era del tamaño de una paloma grande"
+    ],
+    "stats": {
+      "wingspan": "70 cm",
+      "length": "70 cm",
+      "weight": "1kg",
+      "speed": "Planeo",
+      "lifespan": "~8 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 2000,
+      "discoveredBy": "Xing Xu",
+      "discoveryLocation": "China",
+      "notableSpecimens": ["Más de 300 especímenes conocidos"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Microraptor_gui_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 1,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Planeador"
+  },
+  {
+    "id": "carcharo-22",
+    "name": "Carcharodontosaurus",
+    "scientificName": "Carcharodontosaurus saharicus",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "100-94 millones de años",
+    "diet": "Carnívoro",
+    "region": "Norte de África",
+    "habitat": "Llanuras fluviales",
+    "classification": {
+      "order": "Saurischia",
+      "family": "Carcharodontosauridae",
+      "genus": "Carcharodontosaurus",
+      "species": "C. saharicus"
+    },
+    "description": "Su nombre significa 'lagarto con dientes de tiburón blanco'. Era uno de los mayores carnívoros terrestres de todos los tiempos.",
+    "behavior": "Cazador terrestre de grandes saurópodos. Evitaba el confrontamiento directo con el Spinosaurus acuático.",
+    "funFacts": [
+      "Su nombre hace referencia a los dientes del tiburón blanco",
+      "Competía por territorio con el Spinosaurus",
+      "Sus primeros fósiles fueron destruidos en WWII"
+    ],
+    "stats": {
+      "height": "3.8m",
+      "length": "13m",
+      "weight": "10000kg",
+      "speed": "~25 km/h",
+      "lifespan": "~40 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1927,
+      "discoveredBy": "Depéret y Savornin",
+      "discoveryLocation": "Sahara argelino",
+      "notableSpecimens": ["Espécimen de Marruecos 1996"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carcharodontosaurus_saharicus_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 9,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "dracorex-23",
+    "name": "Dracorex",
+    "scientificName": "Dracorex hogwartsia",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "66 millones de años",
+    "diet": "Herbívoro",
+    "region": "Norteamérica",
+    "habitat": "Bosques",
+    "classification": {
+      "order": "Ornithischia",
+      "family": "Pachycephalosauridae",
+      "genus": "Dracorex",
+      "species": "D. hogwartsia"
+    },
+    "description": "Su nombre completo es 'Rey dragón de Hogwarts'. Tenía un cráneo plano con espinas y protuberancias que recuerdan a los dragones de fantasía.",
+    "behavior": "Similar al Pachycephalosaurus, era un herbívoro bípedo con posible comportamiento de combate.",
+    "funFacts": [
+      "Fue nombrado en honor al mundo de Harry Potter (Hogwarts)",
+      "J.K. Rowling recibió una réplica del cráneo como regalo",
+      "Muchos paleontólogos creen que es solo un Pachycephalosaurus juvenil"
+    ],
+    "stats": {
+      "height": "1.2m",
+      "length": "3m",
+      "weight": "200kg",
+      "speed": "~25 km/h",
+      "lifespan": "~20 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 2003,
+      "discoveredBy": "Niños donantes",
+      "discoveryLocation": "Dakota del Sur, EE.UU.",
+      "notableSpecimens": ["TCMI 2004.17.1"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dracorex_hogwartsia_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 2,
+    "socialBehavior": "Gregario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "compy-24",
+    "name": "Compsognathus",
+    "scientificName": "Compsognathus longipes",
+    "period": "Jurásico",
+    "era": "Mesozoico",
+    "yearsAgo": "150-148 millones de años",
+    "diet": "Carnívoro",
+    "region": "Europa",
+    "habitat": "Islas tropicales",
+    "classification": {
+      "order": "Saurischia",
+      "family": "Compsognathidae",
+      "genus": "Compsognathus",
+      "species": "C. longipes"
+    },
+    "description": "Durante mucho tiempo fue el dinosaurio más pequeño conocido. Del tamaño de una gallina o un pollo, era un ágil y rápido cazador.",
+    "behavior": "Cazador solitario muy ágil que perseguía lagartos y pequeños animales en islas tropicales.",
+    "funFacts": [
+      "Fue el dinosaurio más pequeño conocido durante más de un siglo",
+      "Se encontró un lagarto en su estómago fosilizado",
+      "Era contemporáneo y co-habitaba con el Archaeopteryx"
+    ],
+    "stats": {
+      "height": "25 cm",
+      "length": "1.2m",
+      "weight": "2.5kg",
+      "speed": "~65 km/h",
+      "lifespan": "~10 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1859,
+      "discoveredBy": "Joseph Oberndorfer",
+      "discoveryLocation": "Alemania",
+      "notableSpecimens": ["BSP AS I 563"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Compsognathus_longipes_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 2,
+    "socialBehavior": "Grupos",
+    "reproduction": "Ovíparo",
+    "locomotion": "Bípedo"
+  },
+  {
+    "id": "baryo-25",
+    "name": "Baryonyx",
+    "scientificName": "Baryonyx walkeri",
+    "period": "Cretácico",
+    "era": "Mesozoico",
+    "yearsAgo": "130-125 millones de años",
+    "diet": "Piscívoro",
+    "region": "Europa",
+    "habitat": "Deltas fluviales",
+    "classification": {
+      "order": "Saurischia",
+      "family": "Spinosauridae",
+      "genus": "Baryonyx",
+      "species": "B. walkeri"
+    },
+    "description": "Un pariente del Spinosaurus con un hocico largo como un cocodrilo y una enorme garra en la primera falange de cada mano.",
+    "behavior": "Cazador semi-acuático que pescaba metiendo la cabeza en el agua o usando las garras como arpones.",
+    "funFacts": [
+      "Su garra de la mano medía 30 cm de longitud",
+      "Se encontraron escamas de pez gigante en su cavidad abdominal",
+      "Fue descubierto por un plomero aficionado a la paleontología"
+    ],
+    "stats": {
+      "height": "2.5m",
+      "length": "9.5m",
+      "weight": "2000kg",
+      "speed": "~30 km/h",
+      "lifespan": "~30 años"
+    },
+    "discoveryInfo": {
+      "firstDiscovered": 1983,
+      "discoveredBy": "William Walker",
+      "discoveryLocation": "Inglaterra",
+      "notableSpecimens": ["NHMUK PV P10100"]
+    },
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baryonyx_walkeri_life_restoration.png",
+    "featured": false,
+    "dangerLevel": 6,
+    "socialBehavior": "Solitario",
+    "reproduction": "Ovíparo",
+    "locomotion": "Semi-acuático"
+  }
+]

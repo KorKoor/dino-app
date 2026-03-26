@@ -18,7 +18,7 @@ export default function SystemLog() {
     { type: 'json', delay: 100, text: `  "name": "Carlos García Huerta",` },
     { type: 'json', delay: 100, text: `  "role": "Software Developer",` },
     { type: 'json', delay: 100, text: `  "current_location": "Aguascalientes_Sector // MX",` },
-    { type: 'json-highlight', delay: 100, text: `  "relocation_status": "READY_FOR_TRANSFER // TARGET: GUADALAJARA (Softtek_Node)",` },
+    { type: 'json-highlight', delay: 100, text: `  "relocation_status": "READY_FOR_TRANSFER",` },
     { type: 'json', delay: 100, text: `  "contact_nodes": {` },
     { type: 'link', delay: 100, label: `    "email": `, url: `mailto:charliegarcia.it@gmail.com`, value: `"charliegarcia.it@gmail.com",` },
     { type: 'link', delay: 100, label: `    "portfolio": `, url: `https://korwork.org`, value: `"korwork.org",` },
